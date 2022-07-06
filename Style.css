@@ -1,0 +1,120 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+body{
+  /*background-color: hsl(225, 100%, 94%);*/
+  font-size: 16px;
+  font-family: helvetica;
+  background-image: url('/Images/pattern-background-mobile.svg');
+  background-repeat: no;
+  background-size: cover;
+}
+.container {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 3em 0em 0em;
+}
+.container_info1 img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+}
+.container_info2{
+  gap: 1em;
+  background-color: #ffffff;
+  padding: 0em 2em 1em 2em;
+  margin: 5% 0%;
+}
+.container_info2 h2{
+  font-weight: bold;
+  padding: 3% 0%;
+  color: hsl(223, 47%, 23%);
+  /*color: rgb(60,60,60);*/
+}
+.container_info2 p{
+  font-size: 1em;
+  color: hsl(224, 23%, 55%);
+  /*rgb(180,180,180);*/
+}
+
+.container_info3 {
+  /*rgba(255,182,193, 0.1)  /*hsl(330%, 100%, 52%); /*hsl(351, 100%, 55%);*/
+  /*#ffb6c1*/
+display: flex;
+padding: 0.3em;
+width: 100%;
+background-color: hsl(225, 100%, 98%);
+border-radius: 20px;
+margin: 3%;
+}
+.container_info3 img{
+  border-radius: 50px;
+}
+.music{
+  width: 30%;
+}
+.sub-container_1{
+  width: 30%;
+}
+.plan {
+  color: hsl(223, 47%, 23%);
+}
+.price {
+  color: hsl(224, 23%, 55%);
+}
+.sub-container_2{
+  width: 30%;
+}
+a{
+  color: hsl(245, 75%, 52%);
+  text-decoration-line: underline;
+}
+button {
+  width: 100%;
+  padding: 1em 1em;
+  border-radius: 0.625em;
+  border: 1px solid #4169e1;
+  background-color: hsl(245, 75%, 52%);
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: bold;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 3%;
+}
+.container_info4{
+margin: 2em;
+}
+.container_info4 p{
+  color: hsl(224, 23%, 55%);
+  /*rgb(150,150,150);*/
+  font-weight: bold
+  cursor: pointer;
+}
+.name{
+  color: hsl(245, 75%, 52%);
+  text-decoration-line: underline;
+}
+.attribution.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+ .attribution a { 
+   color: hsl(228, 45%, 44%); 
+   
+ }
+@media (max-width: 768px) {
+  .container_box {
+    width: 350px;
+  }
+@media (max-width: 500px) {
+  .container_box {
+    width: 90%;
+  }
