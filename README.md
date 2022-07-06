@@ -93,4 +93,5 @@ I would like to master the use of the margin, padding, justify, align, and displ
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 ## Acknowledgments
+Ace Adonis (Frontend mentor)
 Reuben from TECHATON 
