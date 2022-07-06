@@ -8,7 +8,7 @@ body{
  /* background-color: hsl(225, 100%, 94%);*/
   font-size: 16px;
   font-family: helvetica;
-  background-image: url('pattern-background-mobile.svg');
+  background-image: url('/images/pattern-background-mobile.svg');
   background-size: cover;
   background-repeat: none;
 }
@@ -38,7 +38,7 @@ body{
   padding: 2em 2em;
 }
 .container_info2{
-  gap: 1em;
+  gap:1em;
   background-color: #ffffff;
   padding: 0em 0em 2em 0em;
 }
@@ -61,8 +61,9 @@ background-color: hsl(225, 100%, 98%)
   width: 100%;/*rgba(255,182,193, 0.1)  /*hsl(330%, 100%, 52%); /*hsl(351, 100%, 55%);*/
   /*#ffb6c1*/
   display: flex;
-  padding: 0.3em;
+  padding: 10px 0px;
   border-radius: 10px;
+  justify-content: center;
 }
 .music{
   width: 30%;
@@ -81,8 +82,7 @@ background-color: hsl(225, 100%, 98%)
 }
 .sub-container_2{
   width: 30%;
-  justify-content: center;
-  text-align: center;
+  padding: 15px 0px;
 }
 .sub-container_2 a{
   color: hsl(245, 75%, 52%);
