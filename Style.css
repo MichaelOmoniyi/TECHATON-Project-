@@ -5,10 +5,12 @@
   box-sizing: border-box;
 }
 body{
-  background-color: hsl(225, 100%, 94%);*/
+ /* background-color: hsl(225, 100%, 94%);*/
   font-size: 16px;
   font-family: helvetica;
-  background-image: url('Images/pattern-background-mobile.svg');
+  background-image: url('/images/pattern-background-mobile.svg');
+  background-size: cover;
+  background-repeat: none;
 }
 .container {
   width: 100%;
@@ -51,7 +53,7 @@ body{
   color: hsl(224, 23%, 55%);
   /*rgb(180,180,180);*/
 }
-.me{
+. section {
 background-color: hsl(225, 100%, 98%)
 }
 .container_info3 {
