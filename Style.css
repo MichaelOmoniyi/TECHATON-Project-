@@ -13,11 +13,11 @@ body{
   background-repeat: none;
 }
 .container {
-  width: 100%;
+  width: 30%;
   height: auto;
   text-align: center;
   justify-content: center;
-  margin: 10% 5%;
+  margin: 5% 35%;
 }
 .container_box1{
   background-color: #ffffff;
