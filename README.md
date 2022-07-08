@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-{% img  URL('Screenshot_20220706-140105.png') 100% auto project image project image
+{% img  URL('Screenshot_20220708-021853.png') 100% auto project image project image
 
 ### Links
 
