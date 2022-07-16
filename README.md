@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://blog.hubspot.com/website/center-div-css)
-- Live Site URL: (https://www.w3schools.com)
+- Solution URL:(https://michaelomoniyi.github.io/TECHATON-Project-/)
+- Live Site URL: (https://michaelomoniyi.github.io/TECHATON-Project-/)
 
 ## My process
 1. I looked through the designs to start planning out how to tackle the project. 
@@ -88,7 +88,7 @@ I would like to master the use of the margin, padding, justify, align, and displ
 
 ## Author
 
-- Website - Michael Omoniyi (https://www.your-site.com)
+- Website - Michael Omoniyi (https://michaelomoniyi.github.io/TECHATON-Project-/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
