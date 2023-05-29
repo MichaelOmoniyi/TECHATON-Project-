@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.testmonialContainer{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3rem 2rem 2rem;
+    display: grid;
+    grid-template-areas: "a" "b" "c" "d" "e";
+}
+.testmonialContainer1{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem;
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-size: 30% 25%;
+    background-color: hsl(263, 55%, 52%);
+    box-shadow: 5px 10px 10px hsl(0, 0%, 81%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    grid-area: a;
+}
+.testmonialContainer2{
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem;
+    background-color: hsl(217, 19%, 35%);
+    box-shadow: 5px 10px 5px hsl(210, 46%, 95%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px hsl(0, 0%, 81%);
+    grid-area: b;
+}
+.testmonialContainer3{
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 10px 5px hsl(210, 46%, 95%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px hsl(0, 0%, 81%);
+    grid-area: c;
+}
+.testmonialContainer4{
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem;
+    background-color: hsl(219, 29%, 14%);
+    box-shadow: 5px 10px 5px hsl(210, 46%, 95%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px hsl(0, 0%, 81%);
+    grid-area: d;
+}
+.testmonialContainer5{
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 10px 5px hsl(210, 46%, 95%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px hsl(0, 0%, 81%);
+    grid-area: e;
+}
+.testmonialContainer img{
+    width: 9vw;
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+.testmonialContainer1 img{
+    border: solid 2px hsl(263, 95%, 75%);
+}
+.testmonialContainer4 img{
+    border: solid 2px hsl(263, 55%, 52%);
+}
+.profile{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.profileStatus{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.profileStatus span{
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    font-size: 2.9vw;
+}
+.profileStatus h5 {
+    color: hsl(0, 0%, 100%);
+    font-size: 3.3vw;
+    margin-bottom: 0.03rem;
+}
+.testmonialContent{
+    text-align: left;
+}
+.testmonialContent p:first-of-type {
+    color: hsl(0, 0%, 100%);
+    font-size: 4.7vw;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.para{
+    color: hsl(0, 0%, 100%);
+    line-height: 1.5;
+    font-size: 3.65vw;
+    opacity: 60%;
+}
+.profileStatusW span{
+    color: hsl(217, 19%, 35%);
+    opacity: 70%;
+    font-size: 2.9vw;
+}
+.profileStatusW h5 {
+    color: hsl(217, 19%, 35%);
+    font-size: 3.3vw;
+    margin-bottom: 0.03rem;
+}
+.testmonialContentW p:first-of-type{
+    font-size: 4.7vw;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: hsl(217, 19%, 35%);
+}
+.paraWhite{
+    line-height: 1.5;
+    font-size: 3.65vw;
+    opacity: 70%;
+    color: hsl(217, 19%, 35%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 0.5rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (min-width: 1094px) {
+    .testmonialContainer{
+        display: grid;
+        grid-template-areas: "a a b e" "c d d e";
+        gap: 3rem;
+    }
+    .testmonialContainer1{
+        grid-area: a;
+        background-position-x: 90%;
+        background-size: 30% 40%;
+    }
+    .testmonialContainer2{
+        grid-area: b;
+    }
+    .testmonialContainer3{
+        grid-area: c;
+    }
+    .testmonialContainer4{
+        grid-area: d;
+    }
+    .testmonialContainer5{
+        grid-area: e;
+    }
+    .testmonialContainer img{
+        width: 2vw;
+    }
+    .profileStatus span{
+        font-size: 13px;
+    }
+    .profileStatus h5 {
+        font-size: 13px;
+    }
+    .testmonialContent p:first-of-type {
+        font-size: 1.2vw;
+    }
+    .para{
+        font-size: 0.84vw;
+    }
+    .profileStatusW span{
+        font-size: 13px;
+    }
+    .profileStatusW h5 {
+        font-size: 13px;
+    }
+    .testmonialContentW p:first-of-type{
+        font-size: 1.2vw;
+    }
+    .paraWhite{
+        font-size: 0.84vw;
+    }
+    .testmonialContainer5 .paraWhite{
+        font-size: 1.1vw;
+    }
+}
