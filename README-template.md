@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-{% img  URL('Screenshot_20220706-140105.png') 100% auto project image project image
+![](./images/Screenshot_20220706-140105.png)
 
 ### Links
 
-- Solution URL:(https://blog.hubspot.com/website/center-div-css)
-- Live Site URL: (https://www.w3schools.com)
+- Solution URL:(https://github.com/MichaelOmoniyi/TECHATON-Project-)
+- Live Site URL: (https://techathon-omons.netlify.app/)
 
 ## My process
 1. I looked through the designs to start planning out how to tackle the project. 
@@ -46,7 +46,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 
 ### What I learned
@@ -84,13 +83,14 @@ I would like to master the use of the margin, padding, justify, align, and displ
 
 ### Useful resources
 
-- (https://blog.hubspot.com/website/center-div-css) - This helped me to center-div-css. I really liked this pattern and will use it going forward.
+- [Example resource 1](https://www.w3schools.com) - This helped me for understand flexbox syntax.
 
 ## Author
 
-- Website - Michael Omoniyi (https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Michael Omoniyi](https://github.com/MichaelOmoniyi)
+- Frontend Mentor - [@MichaelOmoniyi](www.frontendmentor.io/profile/MichaelOmoniyi)
+- Twitter - [@Omons_Mikel](https://twitter.com/Omons_Mikel)
+
 
 ## Acknowledgments
 Reuben from TECHATON 
