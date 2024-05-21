@@ -1,0 +1,10 @@
+.count-bg
+{
+    background-color: rgb(112, 112, 112) !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    padding: 3px !important;
+    padding-inline: 10px !important;
+    margin-top: auto;
+    margin-bottom: auto;
+}
